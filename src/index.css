@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme{
+    --color-basic-light: #1b2537;
+    --color-basic-dark: #141a29;
+    --font-default: "Verdana";
+}
+body{
+  margin: 0;
+  font-family: system-ui;
+}
+#root, .navbar-page{
+  display: flex;
+}
+.navbar-pages-container{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.navbar-pages-container div{
+  display: flex;
+  gap: 12px;
+}
+svg{
+  color: white;
+}
+p{
+  line-height: 16px;
+}
