@@ -3,6 +3,7 @@
 @theme{
     --color-basic-light: #1b2537;
     --color-basic-dark: #141a29;
+    --color-accentLime: #60ceb2;
     --font-default: "Verdana";
 }
 body{
@@ -16,7 +17,7 @@ body{
   padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
 }
 .navbar-pages-container div{
   display: flex;
@@ -27,4 +28,8 @@ svg{
 }
 p{
   line-height: 16px;
+}
+main div{
+  padding: 10px;
+  background-color: #1b2537;
 }

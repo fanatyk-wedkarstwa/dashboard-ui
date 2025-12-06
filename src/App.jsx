@@ -12,7 +12,7 @@ function App() {
          <Navbar />
          <div className="w-full h-screen flex flex-col">
             <Topbar />
-            <div className="bg-basic-dark flex-1">
+            <div className="bg-basic-dark flex-1 p-5">
                <BrowserRouter>
                   <Routes>
                      <Route path="/" element={<Dashboard />} />
