@@ -5,6 +5,9 @@ function Team() {
    return (
       <>
          <PageHeader containsButton={false} title={"TEAM"} text={"Managing the Team Members"} />
+         <div>
+
+         </div>
       </>
    )
 }
