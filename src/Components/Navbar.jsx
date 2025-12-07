@@ -6,12 +6,11 @@ import { TbInvoice } from "react-icons/tb";
 import { LuContact } from "react-icons/lu";
 import { CiGlobe } from "react-icons/ci";
 import NavPageButton from './NavPageButton';
-import { Link } from 'react-router';
 
 function Navbar() {
    return (
-      <div className='bg-basic-light w-min text-gray-400 h-dvh p-7'>
-         <div className='flex justify-between w-[207px] text-gray-300'>
+      <div className='bg-basic-light w-min text-gray-200 h-dvh p-7'>
+         <div className='flex justify-between w-[207px] text-gray-200'>
             <p className='text-lg'>ADMINIS</p>
             <button><IoMenu /></button>
          </div>

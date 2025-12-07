@@ -1,14 +1,14 @@
 import React from 'react'
 import { IoHomeOutline } from "react-icons/io5";
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 
 function NavPageButton({ icon, text, path }) {
 
     return (
-        <Link to={path}>
+        <NavLink to={path}>
             {icon}
             <p> {text}</p>
-        </Link>
+        </NavLink>
     )
 }
 

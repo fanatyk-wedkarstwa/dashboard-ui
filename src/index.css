@@ -23,11 +23,11 @@ body{
   display: flex;
   gap: 12px;
 }
-svg{
-  color: white;
-}
 a{
   line-height: 16px;
+}
+a.active {
+  color: #615fff;
 }
 main div{
   padding: 10px;
