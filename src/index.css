@@ -19,14 +19,14 @@ body{
   flex-direction: column;
   gap: 25px;
 }
-.navbar-pages-container div{
+.navbar-pages-container a{
   display: flex;
   gap: 12px;
 }
 svg{
   color: white;
 }
-p{
+a{
   line-height: 16px;
 }
 main div{
