@@ -1,7 +1,13 @@
 import React from 'react'
 import PageHeader from '../Components/PageHeader'
 
+import { Chart as ChartJs, defaults } from "chart.js/auto"
+import { Radar, Line, Bar, Doughnut, Pie } from 'react-chartjs-2'
+
+import { mockLineData } from "../Data/mockData"
+
 function Dashboard() {
+
    return (
       <>
          <PageHeader
@@ -29,7 +35,11 @@ function Dashboard() {
                <p>6</p>
             </div>
             <div className='col-span-4 row-span-2 dark:bg-basic-light bg-white-light'>
-               <p>7</p>
+               {/*}
+               <Line
+
+               />
+               {*/}
             </div>
             <div className='col-span-4 row-span-2 dark:bg-basic-light bg-white-light'>
                <p>8</p>
