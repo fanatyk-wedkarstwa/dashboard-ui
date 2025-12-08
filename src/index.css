@@ -3,7 +3,10 @@
 @theme{
     --color-basic-light: #1b2537;
     --color-basic-dark: #141a29;
+    --color-white-light: #FFF;
+    --color-white-dark: #E7E7E7;
     --color-accentLime: #60ceb2;
+    --color-accentIndigo: #615fff;
     --font-default: "Verdana";
 }
 body{
@@ -14,22 +17,16 @@ body{
   display: flex;
 }
 .navbar-pages-container{
-  padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 8px;
 }
 .navbar-pages-container a{
+  font-weight: 500;
   display: flex;
   gap: 12px;
-}
-a{
-  line-height: 16px;
-}
-a.active {
-  color: #615fff;
+  border-radius: 10px;
 }
 main div{
   padding: 10px;
-  background-color: #1b2537;
 }

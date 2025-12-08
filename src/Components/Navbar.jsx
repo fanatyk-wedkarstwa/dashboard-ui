@@ -9,15 +9,15 @@ import NavPageButton from './NavPageButton';
 
 function Navbar() {
    return (
-      <div className='bg-basic-light w-min text-gray-200 h-dvh p-7'>
-         <div className='flex justify-between w-[207px] text-gray-200'>
+      <div className='dark:bg-basic-light bg-white-light w-min dark:text-gray-200 text-gray-700 h-dvh p-7'>
+         <div className='flex justify-between w-[207px] dark:text-gray-200 text-gray-700'>
             <p className='text-lg'>ADMINIS</p>
             <button><IoMenu /></button>
          </div>
          <div className='text-center m-5'>
-            <div className='rounded-full bg-basic-dark size-20 m-auto'><img></img></div>
-            <h2 className='text-white font-semibold text-xl'>Ed Roh</h2>
-            <p className='text-accentLime'>VP Fancy Admin</p>
+            <div className='rounded-full dark:bg-basic-dark bg-white-dark size-20 m-auto'><img></img></div>
+            <h2 className='dark:text-white text-black font-semibold text-xl'>Ed Roh</h2>
+            <p className='text-accentLime font-semibold'>VP Fancy Admin</p>
          </div>
          <div className='navbar-pages-container'>
             <NavPageButton icon={<IoHomeOutline />} text={"Dashboard"} path={""} />

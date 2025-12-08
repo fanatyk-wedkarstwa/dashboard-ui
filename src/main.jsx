@@ -23,7 +23,7 @@ createRoot(document.getElementById('root')).render(
       <Navbar />
       <div className="w-full h-screen flex flex-col">
         <Topbar />
-        <div className="bg-basic-dark flex-1 p-5">
+        <div className="dark:bg-basic-dark bg-white-dark flex-1 p-5">
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/team" element={<Team />} />
