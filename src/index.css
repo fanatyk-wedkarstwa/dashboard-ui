@@ -27,6 +27,7 @@ body{
   gap: 12px;
   border-radius: 10px;
 }
-main div{
-  padding: 10px;
+canvas{
+  height: 30%;
+  width: 30%;
 }
